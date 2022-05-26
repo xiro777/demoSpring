@@ -45,6 +45,8 @@ public class User {
     )
     private Collection<Role> roles;
 
+    //
+
     @ManyToMany(mappedBy = "usersInOneLecture")
     private Set<Lecture> lecturesAddedByUser = new HashSet<>();
 }
