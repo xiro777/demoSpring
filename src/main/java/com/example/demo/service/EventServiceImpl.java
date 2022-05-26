@@ -1,2 +1,4 @@
-package com.example.demo.service;public class EventServiceImpl {
+package com.example.demo.service;
+
+public class EventServiceImpl {
 }
